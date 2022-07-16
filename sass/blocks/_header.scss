@@ -1,0 +1,42 @@
+.site-header {
+    padding: 73px 0 0 0;
+}
+.logo {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.site-header__inner {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar__link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+.burger-btn {
+    display: none;
+}
+
+.navbar__link--active {
+    margin-left: auto;
+    padding: 9px 32px 11px 32px;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+}
