@@ -68,15 +68,15 @@
     color: #FFFFFF;
 }
 
-@media only screen and (max-width:1300px){
+@include max-width (1300px){
         .hero__title {
             font-size: 80px;
-            width: 87%;
+            width: 114%;
             max-width: 600px;
         }
     }
 
-    @media only screen and (max-width:768px){
+    @include max-width (768px){
         .logo-img {
             width: 128px;
             height: 32px;
@@ -103,7 +103,7 @@
         }
 
         .hero__title__inner {
-            width: 54%;
+            width: 82%;
         }
         .hero__title {
             margin: 0;
@@ -149,7 +149,7 @@
         }
         
     }
-    @media only screen and (max-width:376px){
+    @include max-width (576px){
         .site-header {
             padding: 48px 0 0 0;
         }
